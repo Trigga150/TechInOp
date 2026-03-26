@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"content="width=device-width, initial-scale=1.0" />
+  <title>Contact &amp; Support | TechInOp</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="theme-dark">
+  <div class="global-bg">
+    <div class="bg-orbit orbit-1"></div>
+    <div class="bg-orbit orbit-2"></div>
+    <div class="bg-grid"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">O</span>
+        <span class="logo-text">TechInOp</span>
+      </a>
+      <nav class="nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="products.html#store">Store</a></li>
+          <li><a href="innovation-lab.html">Innovation Lab</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <button type="button" class="btn btn-ghost listen-btn" aria-pressed="false" aria-label="Listen to this page">
+        Listen to page
+      </button>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Contact &amp; Support</p>
+        <h1>Let’s Build the Future Together</h1>
+        <p class="page-hero-subtitle">
+          Whether you’re a customer, partner, or investor, we’d love to hear from you. Share your vision, and let’s see
+          how TechInOp can help bring it to life.
+        </p>
+      </div>
+      <div class="page-hero-media">
+        <img src="assets/img/contact-grid.png" alt="Neon city grid representing connections" />
+      </div>
+    </section>
+
+    <!-- Contact form -->
+    <section class="section" id="contact">
+      <div class="container grid-2">
+        <div class="reveal">
+          <h2>Contact Form</h2>
+          <p>For inquiries, partnerships, and general questions about TechInOp and our products.</p>
+          <form class="form-card" action="#" method="post">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-field">
+                <label for="company">Company / Organization</label>
+                <input type="text" id="company" name="company" placeholder="Optional" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+              </div>
+              <div class="form-field">
+                <label for="topic">Topic</label>
+                <select id="topic" name="topic">
+                  <option value="general">General Inquiry</option>
+                  <option value="product">Product Question</option>
+                  <option value="partnership">Partnership</option>
+                  <option value="media">Media / Press</option>
+                  <option value="careers">Careers</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us more about how we can help." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        <div class="reveal delay-1">
+          <h2 id="support">Support</h2>
+          <p>Need help with an existing deployment or pilot?</p>
+          <ul class="support-list">
+            <li><strong>Technical Support</strong><br />support@techinop.ai</li>
+            <li><strong>Operational Status</strong><br /><a href="#">status.techinop.ai</a></li>
+            <li><strong>Documentation</strong><br /><a href="#">docs.techinop.ai</a></li>
+          </ul>
+          <h2 id="careers">Career Application</h2>
+          <p>
+            Ready to join TechInOp? Submit your details below and our team will review your application for current and
+            future roles.
+          </p>
+          <form class="form-card" action="#" method="post">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="career-name">Full Name</label>
+                <input type="text" id="career-name" name="career-name" placeholder="Your name" required />
+              </div>
+              <div class="form-field">
+                <label for="career-email">Email</label>
+                <input type="email" id="career-email" name="career-email" placeholder="you@example.com" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="career-role">Role of Interest</label>
+                <select id="career-role" name="career-role">
+                  <option value="autonomous-systems">Autonomous Systems Engineer</option>
+                  <option value="robotics-software">Robotics Software Engineer</option>
+                  <option value="ai-product-designer">Product Designer, AI Interfaces</option>
+                  <option value="ml-research">ML Research Engineer</option>
+                  <option value="other">Other / Future Role</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="career-location">Preferred Location / Remote</label>
+                <input type="text" id="career-location" name="career-location" placeholder="City, Country or Remote" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="career-linkedin">LinkedIn / Portfolio URL</label>
+                <input type="url" id="career-linkedin" name="career-linkedin" placeholder="https://…" />
+              </div>
+              <div class="form-field">
+                <label for="career-resume">Resume / CV (link or file)</label>
+                <input type="file" id="career-resume" name="career-resume" />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="career-message">Tell us about your work</label>
+              <textarea
+                id="career-message"
+                name="career-message"
+                rows="4"
+                placeholder="Share a short summary of your experience, what you’d like to work on, and why TechInOp."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary">Submit Application</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Investor portal & newsletter -->
+    <section class="section section-investor" id="investors">
+      <div class="container grid-2">
+        <div class="reveal">
+          <h2>Investor Portal</h2>
+          <p>
+            Existing and prospective investors can access detailed updates, reports, and roadmaps through the TechInOp
+            Investor Portal.
+          </p>
+          <form class="form-card" action="#" method="post">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="investor-name">Investor Name</label>
+                <input type="text" id="investor-name" name="investor-name" placeholder="Your name" required />
+              </div>
+              <div class="form-field">
+                <label for="investor-org">Fund / Organization</label>
+                <input type="text" id="investor-org" name="investor-org" placeholder="Your firm or organization" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="investor-email">Investor Email</label>
+                <input type="email" id="investor-email" name="investor-email" placeholder="you@fund.com" required />
+              </div>
+              <div class="form-field">
+                <label for="investor-type">Investor Type</label>
+                <select id="investor-type" name="investor-type">
+                  <option value="vc">Venture Capital</option>
+                  <option value="pe">Private Equity</option>
+                  <option value="strategic">Strategic / Corporate</option>
+                  <option value="angel">Angel / Family Office</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="access-code">Access Code</label>
+              <input type="password" id="access-code" name="access-code" placeholder="Existing portal access code" />
+            </div>
+            <div class="form-field">
+              <label for="investor-notes">Notes (optional)</label>
+              <textarea
+                id="investor-notes"
+                name="investor-notes"
+                rows="3"
+                placeholder="Share any context, interests, or questions about TechInOp."
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary">Request / Access Portal</button>
+          </form>
+        </div>
+        <div class="reveal delay-1">
+          <h2>Newsletter Signup</h2>
+          <p>Stay updated on launches, pilots, and breakthroughs from the TechInOp ecosystem.</p>
+          <form class="form-card" action="#" method="post">
+            <div class="form-field">
+              <label for="newsletter-email">Email</label>
+              <input type="email" id="newsletter-email" name="newsletter-email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-field checkbox-field">
+              <label>
+                <input type="checkbox" name="agree" required />
+                I agree to receive communications from TechInOp and understand I can unsubscribe at any time.
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="logo mini">
+          <span class="logo-mark">O</span>
+          <span class="logo-text">TechInOp</span>
+        </div>
+        <p>Operational AI for homes, vehicles, and robots—designed for the real world.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="products.html#dai">DAI</a></li>
+            <li><a href="products.html#hai">HAI</a></li>
+            <li><a href="products.html#rai">RAI</a></li>
+            <li><a href="innovation-lab.html#careers">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#investors">Investor Portal</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <div class="social-links">
+            <a href="#" aria-label="TechInOp on X">X</a>
+            <a href="#" aria-label="TechInOp on LinkedIn">in</a>
+            <a href="#" aria-label="TechInOp on YouTube">YT</a>
+          </div>
+          <ul class="legal-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <small>© <span id="year"></span> Tech In Operation. All rights reserved.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
